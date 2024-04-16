@@ -6,9 +6,9 @@ int fat (int i);
 int main(){
 	setlocale(LC_ALL,"Portuguese");
 	int v1[5], v2[5], i;
-	printf("Digite 5 números para o vetor A\n");
+	printf("Digite 5 nÃºmeros para o vetor A\n");
 	for(i = 0; i < 5; i++){
-		printf("%iº número: ", i + 1);
+		printf("%iÂº nÃºmero: ", i + 1);
 		scanf("%i", &v1[i]);
 	}		
 	for(i = 0; i < 5; i++){
