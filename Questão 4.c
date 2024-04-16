@@ -4,9 +4,9 @@
 int main (){
 	setlocale(LC_ALL,"Portuguese");
 	int v[10], i, m;
-	printf("Digite 10 números inteiros\n\n");
+	printf("Digite 10 nÃºmeros inteiros\n\n");
 	for(i = 0; i < 10; i++){
-		printf("%iº número: ", i + 1);
+		printf("%iÂº nÃºmero: ", i + 1);
 		scanf("%i", &v[i]);
 	}
 	m = v[0];
@@ -15,6 +15,6 @@ int main (){
 			m = v[i];
 		}
 	}
-	printf("\nO maior número do vetor é %i", m);
+	printf("\nO maior nÃºmero do vetor Ã© %i", m);
 	return(0);
 }
