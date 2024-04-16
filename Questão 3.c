@@ -4,14 +4,14 @@
 int main (){
 	setlocale(LC_ALL,"Portuguese");
 	int v[5], i, s = 0;
-	printf("Digite 5 números inteiros\n\n");
+	printf("Digite 5 nÃºmeros inteiros\n\n");
 	for(i = 0; i < 5; i++){
-		printf("%iº número: ", i + 1);
+		printf("%iÂº nÃºmero: ", i + 1);
 		scanf("%i", &v[i]);
 	}
 	for(i = 0; i < 5; i++){
 		s += v[i];
 	}
-	printf("\nA soma dos 5 números é: %i", s);
+	printf("\nA soma dos 5 nÃºmeros Ã©: %i", s);
 	return(0);
 }
